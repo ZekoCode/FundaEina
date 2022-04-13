@@ -1,21 +1,20 @@
 import React from 'react'
 import TitleForm from '../../atoms/titleForm/TitleForm'
-import LinkForm from '../../atoms/linkForm/LinkForm'
 import './styles.css'
 
 
 function LoginForm() {
   return (
     <form className='form--form'>
-        <TitleForm text='Member Login'/>       
+        <TitleForm text='Iniciar Sesion'/>       
 
         <div className='controls'>
           <i class="bi bi-envelope-fill"></i>
           <input className="" 
-            type="email" 
-            name="correo" 
-            id="correo" 
-            placeholder="Ingrese su correo"
+            type="cedula" 
+            name="cedula" 
+            id="cedula" 
+            placeholder="Ingrese su cedula..."
           />
         </div>
         
@@ -26,19 +25,11 @@ function LoginForm() {
             type="password" 
             name="contraseña" 
             id="contraseña" 
-            placeholder="Ingrese su contraseña"
+            placeholder="Ingrese su contraseña..."
           />
         </div>
 
         <button className='btn--submit' type='submit'>Login</button>
-
-        <p className='link--p'> 
-            Forgot <LinkForm text='Username' link='#'/> <LinkForm text='Password?' link='#'/> 
-            <br />
-            <br />
-            <LinkForm text='Create tu cuenta'/>
-        </p>
-        
         
     </form>
   )
