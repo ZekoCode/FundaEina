@@ -1,22 +1,30 @@
 .form--form{
     background: #888BBF; 
-    width: 300px;
+    width: 340px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 25px
 }
 
 .controls{
     margin: 15px 0px;
-    background: #504F62;
+    background-color: #68718C;
     width: 230px;
     border-radius: 25px;
     padding: 5px 10px;
     /* height:; */
+    color: #DEC9F2;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+.control--form{
+    color: red;
+
 }
 
 .controls>i{

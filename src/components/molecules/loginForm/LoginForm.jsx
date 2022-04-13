@@ -7,10 +7,11 @@ function LoginForm() {
   return (
     <form className='form--form'>
         <TitleForm text='Iniciar Sesion'/>       
-
+        <br/>
+        <br/>
         <div className='controls'>
           <i class="bi bi-envelope-fill"></i>
-          <input className="" 
+          <input className="control--form" 
             type="cedula" 
             name="cedula" 
             id="cedula" 
@@ -28,8 +29,9 @@ function LoginForm() {
             placeholder="Ingrese su contraseña..."
           />
         </div>
-
-        <button className='btn--submit' type='submit'>Login</button>
+        <br/>
+        <br/>
+        <button className='btn--submit' type='submit'>Ingresar</button>
         
     </form>
   )
