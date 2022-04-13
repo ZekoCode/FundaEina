@@ -32,6 +32,21 @@ function LoginForm() {
         <br/>
         <br/>
         <button className='btn--submit' type='submit'>Ingresar</button>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    
+        <p className='link--p'> 
+            <lable>Fundacion Eina @ Coryright 2022</lable>
+        </p>
         
     </form>
   )

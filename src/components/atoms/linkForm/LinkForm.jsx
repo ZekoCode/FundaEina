@@ -3,7 +3,7 @@ import './style.css'
 
 function LinkForm({link,text}) {
   return (
-    <a className="form--link" href={link}>{text}</a>
+    <a className="form--parrafo" href={link}>{text}</a>
   )
 }
 

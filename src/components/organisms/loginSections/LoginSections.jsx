@@ -10,6 +10,8 @@ function LoginSections() {
     <div className='login--container'>
         <ImageForm url={imgUrl} alt='Icono'/>
         <LoginForm/>
+        <br/>
+
     </div>
 
   )
